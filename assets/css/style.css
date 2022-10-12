@@ -1,16 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
+
+html{
+  font-size: 10px;
+}
+
 body{
+  margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
-  width: 100%;
+  /* width: 100%; */
+  
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
+.content{
+  width: 90%;
+}
 
+
+main{
+  max-width: 592px;
+  max-height: 569px;
+  margin: 10px auto 0 auto;
+}
 .imagem-banner{
-  width: 344px;
+  max-width: 344px;
+  max-height: 261px;
 }
 
 .titulo-principal{
@@ -20,7 +37,9 @@ body{
 }
 
 .titulo-box{
-  
+  margin: 0 auto;
+  max-width: 562px;
+  max-height: 112px  ;
 }
 
 .paragrafo-1{
@@ -32,16 +51,20 @@ body{
 }
 
 .texto-box{
+  max-width: 592px;
+  max-height: 140px;
   margin: 0 auto;
   width: 600px;
 }
 
 .titulo-box span, .texto-box span{
-  color: #6C63FF;
-  
+  color: #6C63FF;  
 }
 
 footer{
+  margin: 0 auto;
+  max-width: 592px;
+  max-height: 36px;
   margin-top: 80px;
   margin-bottom: 33px;
   font-size: 14px;
@@ -56,6 +79,7 @@ footer li{
 footer a{
   color: #6C63FF;
 }
+
 
 
 
